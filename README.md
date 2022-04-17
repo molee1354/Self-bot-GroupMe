@@ -67,7 +67,7 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
         <p>then the bot was successfully set up, and now is ready to do some interesting things.</p>
 
 3. Calling the bot
-   - The bot can be called from the chatroom by the `$[Your first name]bot` keyword followed by any *command* keywords
+   - The bot can be called from the chatroom by the `$[Your first name]bot` keyword followed by any *command* keywords. The *command* keywords aren't case sensitive.
    - Some *command* keywords include: 
      - `echo` - replies with the last message sent before the bot call (the bot does not reply with any bot calls as that could cause problems).
      - `time` - replies with the current time.
