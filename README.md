@@ -8,6 +8,7 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
    - In order to be able to launch this bot, you need a valid GroupMe account and Python 3 installed on your computer. Other necessary Python modules should be added when the bot starts.
 1. Setting up credentials with `setup.py`:
      - To start out with setting up the appropriate credentials for the app, you first need to log in to the  [GroupMe Developers](https://dev.groupme.com/) website and request your personal token (this takes maybe like 30 seconds).
+       - Once you login through the website, on the top right-hand corner, you will see the 'Access Token' tab. Click on that and copy the token to your clipboard.
      - With your token, run `setup.py` by typing in
 
             py setup.py
