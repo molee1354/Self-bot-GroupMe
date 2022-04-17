@@ -68,10 +68,3 @@ def websearch(website, keyword_entry):
             base = "https://www.google.com/search?q="
 
     return base + keyword
-
-
-
-# print(websearch('youtube','university of rochester yellowjackets'))
-
-    
-
