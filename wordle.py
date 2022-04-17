@@ -2,20 +2,7 @@ from matplotlib.path import Path
 import matplotlib.pyplot as plt
 
 def custom_box_style(x0, y0, width, height, n):
-    """
-    Given the location and size of the box, return the path of the box around
-    it.
-
-    Rotation is automatically taken care of.
-
-    Parameters
-    ----------
-    x0, y0, width, height : float
-        Box location and size.
-    mutation_size : float
-        Mutation reference scale, typically the text font size.
-    """
-    
+        
     # width and height with padding added.
     width = 38
     height = 40
@@ -76,16 +63,3 @@ def wordle_run(words, correct):
         return True
     if len(words) >= 6:
         return False
-
-# words = [ 
-#     "HELLO", 
-#     "     ", 
-#     "     ", 
-#     "     ", 
-#     "     ", 
-#     "     ", 
-# ]
-
-# win = wordle(words, 'CHEEK')
-# print(win)
-# print(words[0])
