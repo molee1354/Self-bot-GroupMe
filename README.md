@@ -8,7 +8,11 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
    - In order to be able to launch this bot, you need a valid GroupMe account and Python 3 installed on your computer. Other necessary Python modules should be added when the bot starts.
 1. Setting up credentials with `setup.py`:
      - To start out with setting up the appropriate credentials for the app, you first need to log in to the  [GroupMe Developers](https://dev.groupme.com/) website and request your personal token (this takes maybe like 30 seconds).
-     - With your token, run `setup.py` and copy-paste the token that you've just obtained.
+     - With your token, run `setup.py` by typing in
+
+            py setup.py
+
+          and copy-paste the token that you've just obtained.
      
             Welcome to Self-bot for GroupMe setup
 
@@ -22,7 +26,7 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
 
                     Token: 
 
-         If you answer no to the question up there, it will redirect you to the [GroupMe Developers](https://dev.groupme.com/) website, from which you can get your token. It is important that you enter the correct token or you won't be able to launch the bot.
+         If you answer no to the question above, you get an option to be redirected to the [GroupMe Developers](https://dev.groupme.com/) website, from which you can get your token. It is important that you enter the correct token or you won't be able to launch the bot.
 
       -  You should then enter a user password that will be used to launch the bot. 
 
@@ -35,9 +39,9 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
     - Now that all of your credentials are set up, you run the `bot.py` program start up your bot. 
         <p> In the terminal, navigate to the directory where the program is type in something like: </p>
 
-        > `py bot.py`
+          py bot.py
 
-        <p> Then the program will first check and install some necessary modules. When that is completed, it will prompt you to enter a password.</p>
+        <p> The program will first check and install some necessary modules. When that is completed, it will prompt you to enter a password.</p>
 
             Enter Password to Login: 
         
@@ -82,7 +86,7 @@ Self-bot for GroupMe is an automatic replier that reacts to certain keyword call
 
             Updated: 04/17 00:00:49
 
-1. Taking down the bot
+4. Taking down the bot
    - The simplest way to take down the bot is just to kill the terminal that currently hosts it, but another way to do this would be to press the `Quit Bot` button on the small UI window
   
      ![UI quit](images/quitter.PNG)
